@@ -1,5 +1,6 @@
 import styles from './Sidebar.module.css';
 import { LinkedinLogo } from 'phosphor-react';
+import { Avatar } from './Avatar';
 
 export function Sidebar() {
   return (
@@ -9,7 +10,9 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img className={styles.avatar} src="https://github.com/w3sll3y.png" />
+        <Avatar
+          src="https://github.com/w3sll3y.png"
+        />
 
         <strong>Wesley Fernandes</strong>
         <span>QA and Web develop</span>
